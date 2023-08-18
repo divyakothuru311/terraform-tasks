@@ -11,6 +11,7 @@ KillSignal=SIGINT
 SyslogIdentifier=nopCommerce-example
 User=www-data
 Environment=ASPNETCORE_ENVIRONMENT=Production
+Environment=ASPNETCORE_URLS=http://0.0.0.0:5000
 Environment=DOTNET_PRINT_TELEMETRY_MESSAGE=false
 
 [Install]
