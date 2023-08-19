@@ -3,7 +3,7 @@ variable "vpc_cidr" {
   description = "this is vpc cidr"
 }
 variable "subnet_names" {
-  type        = list(string)
+  type        = string
   description = "these are subnet names"
 }
 # variable "db_subnet_names" {
@@ -18,9 +18,9 @@ variable "public_key_path" {
   type        = string
   description = "this is public key"
 }
-variable "app_subnet_name" {
-  type = string
-}
+# variable "app_subnet_name" {
+#   type = string
+# }
 variable "ubuntu_ami_id" {
   type        = string
   description = "this is ami id of vm"
