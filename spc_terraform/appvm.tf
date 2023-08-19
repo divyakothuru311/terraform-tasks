@@ -8,7 +8,7 @@ resource "aws_key_pair" "idrsa" {
 data "aws_subnet" "app" {
   filter {
     name   = "tag:Name"
-    values = [var.app_subnet_name[0]]
+    values = [var.app_subnet_name]
   }
 
   depends_on = [

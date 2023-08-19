@@ -6,10 +6,10 @@ variable "subnet_names" {
   type        = list(string)
   description = "these are subnet names"
 }
-variable "db_subnet_names" {
-  type        = list(string)
-  description = "these are dbsubnet names"
-}
+# variable "db_subnet_names" {
+#   type        = list(string)
+#   description = "these are dbsubnet names"
+# }
 variable "subnet_az" {
   type        = list(string)
   description = "these are az for subnets"

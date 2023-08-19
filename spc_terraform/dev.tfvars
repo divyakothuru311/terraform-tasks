@@ -1,7 +1,7 @@
 vpc_cidr        = "10.10.0.0/16"
 subnet_names    = ["app", "db", "db1"]
 subnet_az       = ["ap-south-1a", "ap-south-1b", "ap-south-1c"]
-db_subnet_names = ["db", "db1"]
+#db_subnet_names = ["db", "db1"]
 public_key_path = "~/.ssh/id_rsa.pub"
 app_subnet_name = "app"
 app_ec2_size    = "t2.micro"
